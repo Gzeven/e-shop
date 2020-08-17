@@ -21,6 +21,14 @@
 
     .option {
       padding: 10px 15px;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+
+  .sign-out {
+    &:hover {
+      background-color: gray;
     }
   }
 }

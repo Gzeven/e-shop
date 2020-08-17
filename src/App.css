@@ -11,4 +11,9 @@ a {
 
 a:hover {
   text-decoration: underline;
+  background-color: rgb(76, 71, 71);
+}
+
+* {
+  box-sizing: border-box;
 }

@@ -1,0 +1,42 @@
+.custom-button {
+  min-width: 165px;
+  width: auto;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed";
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+  &:hover {
+    background-color: rgb(22, 240, 240);
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+
+  &.google-sign-in {
+    background-color: #4285f4;
+    color: #fff;
+    &:hover {
+      background-color: #357ae8;
+      border: none;
+    }
+  }
+
+  &.facebook-sign-in {
+    background-color: #3b5998;
+    color: #fff;
+    &:hover {
+      background-color: #1a4c9c;
+      border: none;
+    }
+  }
+}

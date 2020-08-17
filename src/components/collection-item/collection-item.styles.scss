@@ -17,8 +17,9 @@
   .image {
     width: 90%;
     height: 85%;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     margin-bottom: 5px;
   }
 
