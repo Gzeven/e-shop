@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  films: {
     id: 1,
     title: "Films",
     routeName: "films",
@@ -181,7 +181,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  games: {
     id: 2,
     title: "Games",
     routeName: "games",
@@ -328,7 +328,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  boeken: {
     id: 3,
     title: "Boeken",
     routeName: "boeken",
@@ -405,7 +405,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  computer: {
     id: 4,
     title: "Computer",
     routeName: "computer",
@@ -552,7 +552,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  kleding: {
     id: 5,
     title: "Kleding",
     routeName: "kleding",
@@ -721,7 +721,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  schoenen: {
     id: 6,
     title: "Schoenen",
     routeName: "schoenen",
@@ -776,7 +776,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  wonen: {
     id: 7,
     title: "Wonen",
     routeName: "wonen",
@@ -831,7 +831,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  tuin: {
     id: 8,
     title: "Tuin",
     routeName: "tuin",
@@ -886,6 +886,6 @@ const SHOP_DATA = [
       },
     ],
   },
-];
+};
 
 export default SHOP_DATA;
