@@ -1,7 +1,7 @@
 body {
   font-family: "Open Sans Condensed", sans-serif;
   padding: 20px 60px;
-  background-color: black;
+  background-color: #b0e3e9;
 }
 
 a {
@@ -9,10 +9,9 @@ a {
   color: #fff;
 }
 
-a:hover {
+/* a:hover {
   text-decoration: underline;
-  background-color: rgb(76, 71, 71);
-}
+} */
 
 * {
   box-sizing: border-box;

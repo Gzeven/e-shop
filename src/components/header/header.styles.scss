@@ -4,12 +4,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 100px;
 
   .logo-container {
     height: 100%;
     width: 70px;
-    padding: 25px;
+    padding: 0px;
   }
 
   .options {
@@ -21,14 +21,21 @@
 
     .option {
       padding: 10px 15px;
-      color: #fff;
+      color: #465052;
       cursor: pointer;
+      font-size: 1.5em;
+      &:hover {
+        background-color: #465052;
+        color: #b0e3e9;
+        text-decoration: underline;
+        border-radius: 5em;
+      }
     }
   }
 
   .sign-out {
     &:hover {
-      background-color: gray;
+      transform: scale(1.1);
     }
   }
 }

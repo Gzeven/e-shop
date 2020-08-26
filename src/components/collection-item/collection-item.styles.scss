@@ -4,15 +4,16 @@
   flex-direction: column;
   height: 350px;
   align-items: center;
-  border: 1px solid black;
-  padding: 1%;
+  border: 2px solid rgb(26, 140, 155);
+  border-radius: 10px;
+  padding: 1.5em;
   position: relative;
 
-  background: rgb(238, 174, 202);
+  background: rgb(41, 140, 152);
   background: radial-gradient(
     circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
+    rgba(41, 140, 152, 1) 0%,
+    rgba(176, 227, 233, 1) 100%
   );
 
   .image {
@@ -52,12 +53,12 @@
     .name {
       width: 80%;
       margin-bottom: 25px;
-      color: rgb(36, 49, 170);
+      color: rgb(34, 12, 25);
     }
 
     .price {
       width: 20%;
-      color: #fff;
+      color: rgb(37, 23, 23);
     }
   }
 }

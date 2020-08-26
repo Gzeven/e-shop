@@ -8,6 +8,7 @@ import {
 } from "../../redux/cart/cart.selectors";
 import "./checkout.styles.scss";
 import CartItem from "../../components/cart-item/cart-item.component";
+import StripeCheckoutButton from "../../components/stripe-button/stripe-button.component";
 
 const CheckoutPage = ({ cartItems, total }) => (
   <div className="checkout-page">
@@ -32,8 +33,16 @@ const CheckoutPage = ({ cartItems, total }) => (
       <CheckoutItem key={CartItem.id} cartItem={cartItem} />
     ))}
     <div className="total">
-      <span>Totaal: € {total}</span>
+      <span>Totaal: € {total.toFixed(2)}</span>
     </div>
+    <div className="test-warning">
+      * Dit is een test site *
+      <br />
+      * Gebruik de volgende creditcard gegevens voor betaling *
+      <br />
+      4242 4242 4242 4242 - vervaldatum: 01/23 - CVC: 123
+    </div>
+    <StripeCheckoutButton price={total} />
   </div>
 );
 

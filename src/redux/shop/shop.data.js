@@ -8,7 +8,7 @@ const SHOP_DATA = {
         id: 1,
         name: "Avengers: Endgame",
         imageUrl:
-          "https://media.kieskeurig.nl/images/01/91/94/ed/33af/422f/b16f/62e194122e06/400x400.jpg",
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-81872685/fee_786_587_png",
         price: 11.11,
       },
       {
@@ -156,7 +156,7 @@ const SHOP_DATA = {
         name: "Little Women",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_72788527/fee_786_587_png",
-        price: 1699,
+        price: 16.99,
       },
       {
         id: 23,
@@ -179,6 +179,62 @@ const SHOP_DATA = {
           "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-78433474/fee_786_587_png",
         price: 7.99,
       },
+      {
+        id: 26,
+        name: "Jumanji - The Next Level",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_72476272/fee_786_587_png",
+        price: 19.99,
+      },
+      {
+        id: 27,
+        name: "Game of Thrones - Seizoen 1 t/m 7",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-76394987/fee_786_587_png",
+        price: 145.99,
+      },
+      {
+        id: 28,
+        name: "Shallows",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-72170751/fee_786_587_png",
+        price: 12.99,
+      },
+      {
+        id: 29,
+        name: "Spider-man - Far From Home",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-82127868/fee_786_587_png",
+        price: 12.99,
+      },
+      {
+        id: 30,
+        name: "Blumhouse Fantasy Island",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74951873/fee_786_587_png",
+        price: 12.99,
+      },
+      {
+        id: 31,
+        name: "Shazam!",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-81317902/fee_786_587_png",
+        price: 16.99,
+      },
+      {
+        id: 32,
+        name: "Planet Of The Apes 1-3",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-76713273/fee_786_587_png",
+        price: 23.99,
+      },
+      {
+        id: 33,
+        name: "Full Metal Jacket",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-77628457/fee_786_587_png",
+        price: 13.99,
+      },
     ],
   },
   games: {
@@ -188,143 +244,227 @@ const SHOP_DATA = {
     items: [
       {
         id: 50,
-        name: "FIFA 21",
+        name: "FIFA 21 - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_76287492/fee_786_587_png/PS4-FIFA-21-%7C-PlayStation-4",
         price: 59.99,
       },
       {
         id: 51,
-        name: "F1 2020 Seventy Edition",
+        name: "F1 2020 Seventy Edition - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74863718/fee_786_587_png/F1-2020-Seventy-Edition-%7C-PlayStation-4",
         price: 56.99,
       },
       {
         id: 52,
-        name: "Ghost Of Tsushima",
+        name: "Ghost Of Tsushima - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_73482609/fee_786_587_png/Ghost-Of-Tsushima-%7C-PlayStation-4",
         price: 59.99,
       },
       {
         id: 53,
-        name: "GTA V Premium Edition",
+        name: "GTA V Premium Edition - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_70144697/fee_786_587_png/GTA-V-Premium-Edition",
         price: 24.99,
       },
       {
         id: 54,
-        name: "Call of Duty: Modern Warfare",
+        name: "Call of Duty: Modern Warfare - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-82312374/fee_786_587_png/Call-of-Duty%3A-Modern-Warfare-%7C-PlayStation-4",
         price: 59.99,
       },
       {
         id: 55,
-        name: "Red Dead Redemption 2",
+        name: "Red Dead Redemption 2 - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-77503792/fee_786_587_png",
         price: 29.99,
       },
       {
         id: 56,
-        name: "Marvel’s Avengers",
+        name: "Marvel’s Avengers - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_72800316/fee_786_587_png/Marvel%E2%80%99s-Avengers-%7C-PlayStation-4",
         price: 55,
       },
       {
         id: 57,
-        name: "The Last Of Us Part II",
+        name: "The Last Of Us Part II - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74842946/fee_786_587_png/The-Last-Of-Us-Part-II-%7C-PlayStation-4",
         price: 59.99,
       },
       {
         id: 58,
-        name: "Need For Speed Heat",
+        name: "Need For Speed Heat - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_69826268/fee_786_587_png/Need-For-Speed-Heat",
         price: 59.99,
       },
       {
         id: 59,
-        name: "Star Wars: Battlefront II",
+        name: "Star Wars: Battlefront II - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-74755730/fee_786_587_png",
         price: 29.99,
       },
       {
         id: 60,
-        name: "Mafia Definitive Edition",
+        name: "Mafia Definitive Edition - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_75013701/fee_786_587_png/Mafia-Definitive-Edition-%7C-PlayStation-4",
         price: 29.99,
       },
       {
         id: 61,
-        name: "Battlefield 5",
+        name: "Battlefield 5 - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_70081210/fee_786_587_png/Battlefield-5-%7C-PlayStation-4",
         price: 49.99,
       },
       {
         id: 62,
-        name: "God Of War",
+        name: "God Of War - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_70509817/fee_786_587_png",
         price: 19.99,
       },
       {
         id: 63,
-        name: "Far Cry 5",
+        name: "Far Cry 5 - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-75393256/fee_786_587_png/Far-Cry-5-%7C-PlayStation-4",
         price: 17.99,
       },
       {
         id: 64,
-        name: "MotoGP 20",
+        name: "MotoGP 20 - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_72918971/fee_786_587_png/MotoGP-20-%7C-PlayStation-4",
         price: 37.99,
       },
       {
         id: 65,
-        name: "Marvel's Spider-Man",
+        name: "Marvel's Spider-Man - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-77375113/fee_786_587_png/Marvel%27s-Spider-Man-%7C-PlayStation-4",
         price: 39.99,
       },
       {
         id: 66,
-        name: "Crash Bandicoot - Nsane Trilogy",
+        name: "Crash Bandicoot - Nsane Trilogy - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-82254968/fee_786_587_png/Crash-Bandicoot---Nsane-Trilogy-%7C-PlayStation-4",
         price: 29.99,
       },
       {
         id: 67,
-        name: "Assassins Creed – Origins",
+        name: "Assassins Creed – Origins - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-75464910/fee_786_587_png/Assassins-Creed-%E2%80%93-Origins-%7C-PlayStation-4",
         price: 17.99,
       },
       {
         id: 68,
-        name: "Assassin's Creed Valhalla",
+        name: "Assassin's Creed Valhalla - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_76012536/fee_786_587_png/Assassin%27s-Creed-Valhalla-%7C-PlayStation-4",
         price: 59.99,
       },
       {
         id: 69,
-        name: "Assassins Creed - Odyssey",
+        name: "Assassins Creed - Odyssey - PS4",
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-77899999/fee_786_587_png/Assassins-Creed---Odyssey-%7C-PlayStation-4",
         price: 24.99,
+      },
+      {
+        id: 70,
+        name: "Battlefield 5 - PC",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-77645863/fee_786_587_png/Battlefield-5-%7C-PC",
+        price: 49.99,
+      },
+      {
+        id: 71,
+        name: "Overwatch (GOTY Edition) - PC",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-75699106/fee_786_587_png/Overwatch-%28GOTY-Edition%29",
+        price: 62.99,
+      },
+      {
+        id: 72,
+        name: "De Sims 4 - PC",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-65956152/fee_786_587_png/De-Sims-4",
+        price: 19.95,
+      },
+      {
+        id: 73,
+        name: "Farming Simulator 19 - PC",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-78543442/fee_786_587_png/Farming-Simulator-19-%7C-PC",
+        price: 14.77,
+      },
+      {
+        id: 74,
+        name: "Football Manager 2020 - PC",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_70207113/fee_786_587_png/Football-Manager-2020",
+        price: 54.99,
+      },
+      {
+        id: 75,
+        name: "Star Wars Jedi - Fallen Order - PC",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-77751505/fee_786_587_png",
+        price: 29.98,
+      },
+      {
+        id: 76,
+        name: "FIFA 21 (Code In A Box) - PC",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_76287497/fee_786_587_png/FIFA-21-%28Code-In-A-Box%29-%7C-PC",
+        price: 54.99,
+      },
+      {
+        id: 77,
+        name: "Animal Crossing – New Horizons - Nintendo Switch",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_72059223/fee_786_587_png/Animal-Crossing-%E2%80%93-New-Horizons-%7C-Nintendo-Switch",
+        price: 57.99,
+      },
+      {
+        id: 78,
+        name: "Mario Kart 8 Deluxe - Nintendo Switch",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-73371502/fee_786_587_png/Mario-Kart-8-Deluxe-%7C-Nintendo-Switch",
+        price: 54.99,
+      },
+      {
+        id: 79,
+        name: "Ring Fit Adventure - Nintendo Switch",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-82277566/fee_786_587_png/Ring-Fit-Adventure-%7C-Nintendo-Switch",
+        price: 74.99,
+      },
+      {
+        id: 80,
+        name: "Super Mario Party - Nintendo Switch",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-78212991/fee_786_587_png/Super-Mario-Party-%7C-Nintendo-Switch",
+        price: 49.99,
+      },
+      {
+        id: 81,
+        name: "Legend Of Zelda - Breath Of The Wild - Nintendo Switch",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-73371567/fee_786_587_png",
+        price: 58.99,
       },
     ],
   },
@@ -342,7 +482,7 @@ const SHOP_DATA = {
       },
       {
         id: 101,
-        name: "FaçadeEsther",
+        name: "Façade",
         imageUrl:
           "https://images.tbr.mindbus.nl/libris/book/cover/9789044641196?hash=fb22336&width=170",
         price: 19.99,
@@ -356,7 +496,7 @@ const SHOP_DATA = {
       },
       {
         id: 103,
-        name: "De waanzinnige boomhut van 104 verdiepingen ",
+        name: "De waanzinnige boomhut van 104 verdiepingen",
         imageUrl:
           "https://images.tbr.mindbus.nl/libris/book/cover/9789401457620?hash=0da138e&width=170",
         price: 15.99,
@@ -402,6 +542,84 @@ const SHOP_DATA = {
         imageUrl:
           "https://images.tbr.mindbus.nl/libris/book/cover/9789025453411?hash=272c3e3&width=170",
         price: 21.99,
+      },
+      {
+        id: 110,
+        name: "Een glimp van jou",
+        imageUrl: "https://media.s-bol.com/lRxvoABE5lmJ/550x822.jpg",
+        price: 19.99,
+      },
+      {
+        id: 111,
+        name: "Carry on en leef",
+        imageUrl: "https://media.s-bol.com/Vml44KxXqZQX/547x840.jpg",
+        price: 21.5,
+      },
+      {
+        id: 112,
+        name: "Twilight - Midnight Sun",
+        imageUrl: "https://media.s-bol.com/jYPQRVXgMZ9z/550x834.jpg",
+        price: 22.99,
+      },
+      {
+        id: 113,
+        name: "Himalaya De reis naar binnen",
+        imageUrl: "https://media.s-bol.com/ROqpjAQWWNxE/538x840.jpg",
+        price: 19.95,
+      },
+      {
+        id: 114,
+        name: "De rat van Amsterdam",
+        imageUrl: "https://media.s-bol.com/BNgqoYppzzZn/545x840.jpg",
+        price: 26.99,
+      },
+      {
+        id: 115,
+        name: "De vlinderkamer",
+        imageUrl: "https://media.s-bol.com/Vml44KxXqZQX/547x840.jpg",
+        price: 11.99,
+      },
+      {
+        id: 116,
+        name: "Tropenbruid",
+        imageUrl: "https://media.s-bol.com/Z4gPqZO8M52R/541x840.jpg",
+        price: 7.99,
+      },
+      {
+        id: 117,
+        name: "Uit het leven van een hond",
+        imageUrl: "https://media.s-bol.com/YW4Mv6ml5JxM/539x840.jpg",
+        price: 20,
+      },
+      {
+        id: 118,
+        name: "'t Hooge Nest",
+        imageUrl: "https://media.s-bol.com/qxx2EM7V5XAk/527x840.jpg",
+        price: 4.99,
+      },
+      {
+        id: 119,
+        name: "Het zoutpad - Over oude wegen naar een nieuw begin",
+        imageUrl: "https://media.s-bol.com/xQ5Grz5ZVLl/527x840.jpg",
+        price: 7.99,
+      },
+      {
+        id: 120,
+        name: "Ik wil met je mee!",
+        imageUrl: "https://media.s-bol.com/qxx2Zo1BM7rp/550x833.jpg",
+        price: 12.99,
+      },
+      {
+        id: 121,
+        name: "De antwoorden op de grote vragen",
+        imageUrl: "https://media.s-bol.com/jR1PpYrQn3QR/535x840.jpg",
+        price: 19.99,
+      },
+      {
+        id: 122,
+        name: "Het Italiaanse meisje",
+        imageUrl: "https://media.s-bol.com/l5GnyKDNjy2l/546x840.jpg",
+        price: 15,
       },
     ],
   },
@@ -549,6 +767,34 @@ const SHOP_DATA = {
         imageUrl:
           "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-77521441/fee_786_587_png/TP-LINK-TL-WR940N",
         price: 29.95,
+      },
+      {
+        id: 170,
+        name: "SANDISK SSD Ultra 3D 500GB",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-80639574/fee_786_587_png/SANDISK-SSD-Ultra-3D-500GB",
+        price: 76.99,
+      },
+      {
+        id: 171,
+        name: "SEAGATE BarraCuda 120 500GB SSD",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_71758184/fee_786_587_png/SEAGATE-BarraCuda-120-500GB-SSD",
+        price: 66.99,
+      },
+      {
+        id: 172,
+        name: "HAMA USB 3.0 verlengkabel 1 ster 0,5m",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-68986195/fee_786_587_png/HAMA-USB-3.0-verlengkabel-1-ster-0-5m",
+        price: 11.99,
+      },
+      {
+        id: 173,
+        name: "HAMA Micro-USB-kabel verguld 3 sterren 1,8m",
+        imageUrl:
+          "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-35606268/fee_786_587_png/HAMA-Micro-USB-kabel-verguld-3-sterren-1-8m",
+        price: 14.99,
       },
     ],
   },
@@ -774,6 +1020,90 @@ const SHOP_DATA = {
         imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
         price: 200,
       },
+      {
+        id: 259,
+        name: "Zwarte Neopreen Heren Instap Sneakers",
+        imageUrl:
+          "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRxIIfZ2TNP74oJqPKj6X7qKCSa7gNpOQANKCs7JHTtW84XsPmyxKu3ywKNn6PkwkG4LmA7keRbNh4Jh88gnm3CcwPBzdMl7qsYDIMWCgreFNWYwBvQblXi&usqp=CAE",
+        price: 15.98,
+      },
+      {
+        id: 260,
+        name: "Denim Stof Laag Flats Dans Sneakers Platte hak Vrouwen",
+        imageUrl:
+          "https://image.floryday.com/image/webp/500_500/1a/26/1a26448cf02ec1158ed06ec5d9dd6e71.jpg",
+        price: 5.69,
+      },
+      {
+        id: 261,
+        name: "Half-Kuit Laarzen Laarzen Lage hak Vrouwen",
+        imageUrl:
+          "https://image.floryday.com/image/webp/500_500/c9/3a/c93a662bc55bfa974c661b2eb7815e77.jpg",
+        price: 36.69,
+      },
+      {
+        id: 262,
+        name: "Stof Flats Dans Sneakers Platte hak Vrouwen",
+        imageUrl:
+          "https://image.floryday.com/image/webp/500_500/9b/df/9bdf73a84b542fdbbb6bbef0885246d8.jpg",
+        price: 13.65,
+      },
+      {
+        id: 263,
+        name: "Peep Toe Pumps Blokhak Gesp Hollow-out Vrouwen",
+        imageUrl:
+          "https://image.floryday.com/image/webp/500_500/b0/65/b06542fc98fa12fe1ae53c1f5f4cd478.jpg",
+        price: 22.18,
+      },
+      {
+        id: 264,
+        name: "Heren Dames 350 V2 Boost Sneakers Grijs Oranje Zebra",
+        imageUrl:
+          "https://contestimg.wish.com/api/webimage/598ed77e0cbce935d8f0485d-large.jpg?cache_buster=da23b7f4b428d4082beaf16602b8fec0",
+        price: 35,
+      },
+      {
+        id: 265,
+        name: "Santoni Clean Icon - wit",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0024/0353/2870/products/SantoniCleanIconLifestylePic_720x.jpg?v=1587377646",
+        price: 390,
+      },
+      {
+        id: 266,
+        name: "Mario Bemer Lido",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0024/0353/2870/products/MarioBemer_Lido_Loafer_Burgundy_165_1_720x.jpg?v=1579297429",
+        price: 965,
+      },
+      {
+        id: 267,
+        name: "TLB Artista Chelsea Suede - Lichtbruin",
+        imageUrl:
+          "https://cdn.shopify.com/s/files/1/0024/0353/2870/products/tlbmallorcaartista_132_chelsea_lightbrown_goya_132_1_720x.jpg?v=1585139950",
+        price: 475,
+      },
+      {
+        id: 268,
+        name: "JIMMY CHOO - Gouden Sneakers met Diamanten",
+        imageUrl:
+          "https://static.miinto.net/products/337b868a38a7b65d2ea276e14c3eaf80.jpg?width=400&height=600&title=sneakers-diamond",
+        price: 562.95,
+      },
+      {
+        id: 269,
+        name: "Nike Training - Renew - Sneakers in zwart",
+        imageUrl:
+          "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ_s0tTsdB_4eDxyqVxXLso_NreBxTm0Xk_ilTQg80zjUJ7V5d5QNdWG3ZIA1ML-peIc9LQLx2iWHAGy3H7biC9LiPL6H4zNrP4owCz6Ax11CcLUGEmPYRjxQ&usqp=CAE",
+        price: 60,
+      },
+      {
+        id: 270,
+        name: "Philippe Model Sneakers Dames Beige",
+        imageUrl:
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcToAhv8BKGKQYnB1K4JO8gIJYAnlhN6LbnmDGOL2ShHtXYxMu6oNEnrbGNBsx-BuKAP2dAlnkEqFcGCSjAflglDOq1ISpcpkvRaKung7CD5uqAmtiRlF7ReGQ&usqp=CAE",
+        price: 255.95,
+      },
     ],
   },
   wonen: {
@@ -783,51 +1113,157 @@ const SHOP_DATA = {
     items: [
       {
         id: 301,
-        name: "Hoekbank",
-        imageUrl: "https://media.s-bol.com/Z63gBR0K5j7Q/550x458.jpg",
-        price: 599,
+        name: "Stoere bijzettafel Miles met in zand gegoten blad.",
+        imageUrl:
+          "https://cdn.webshopapp.com/shops/93792/files/178361075/345x345x1/vince-design-bijzettafel-miles.jpg",
+        price: 37.95,
       },
       {
         id: 302,
-        name: "vidaXL Driezitsbank",
-        imageUrl: "https://media.s-bol.com/Jy69EplBgGOg/550x550.jpg",
-        price: 322,
+        name: "Pepijn dressoir",
+        imageUrl:
+          "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSkgU9nNBEMfvvEICsFyfphzH0O2ois_l18u7fxGhk7HnNp5dojp_kkOn2dXHp9PGlqgJd0UCdwKDui45EeWfNKmXE-tpuBt0EmjaDgZ8eQ&usqp=CAE",
+        price: 599,
       },
       {
         id: 303,
-        name: "Lucide Tafellamp",
-        imageUrl: "https://media.s-bol.com/kKJwzjzqG6x/418x840.jpg",
-        price: 36,
+        name: "Zweefdeurkast Subito",
+        imageUrl:
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSPnV5ZVdT6Dp18jH1-ezLIE7q_00T7pSknMWhdzouffTz1apk_SoUqmd2fOPcYcmLyvcsClW0aoBMfqgaCs9W52-IeY5_tcx0wpcgvi0o&usqp=CAE",
+        price: 349.99,
       },
       {
         id: 304,
-        name: "Himalaya Salt Dreams Zoutlamp",
-        imageUrl: "https://media.s-bol.com/q7wA6gvMkk23/522x840.jpg",
-        price: 20,
+        name: "U bank - Zwart/Antraciet - Stof - PU leer",
+        imageUrl: "https://media.s-bol.com/BBg9on7oVr8k/550x330.jpg",
+        price: 799,
       },
       {
         id: 305,
-        name: "Ladekast 120 cm",
-        imageUrl: "https://media.s-bol.com/qQRMGPY9AQVy/550x550.jpg",
-        price: 119,
+        name: "Velours hoekbank Delta - Rechts",
+        imageUrl: "https://media.s-bol.com/JqVrJkXKx9Ql/550x340.jpg",
+        price: 554.95,
       },
       {
         id: 306,
-        name: "Houten ladekast - 4 lades",
-        imageUrl: "https://media.s-bol.com/qj6yN4k8wDM0/550x785.jpg",
-        price: 76,
+        name: "Bank Dutch Delight - 3-zits - Cognac",
+        imageUrl: "https://media.s-bol.com/mOEZ3OQXO0qr/550x422.jpg",
+        price: 649,
       },
       {
         id: 307,
-        name: "WOOOD Bruno Eettafel",
-        imageUrl: "https://media.s-bol.com/R6WJ89pxl0YY/550x425.jpg",
-        price: 229,
+        name:
+          "AZ-Home - Ladekast Agnes 60 cm - Wit/Wit Hoogglans - Commode - 3 lades",
+        imageUrl: "https://media.s-bol.com/J8DlDMY74jgD/550x550.jpg",
+        price: 79.9,
       },
       {
         id: 308,
-        name: "Muurmandje van Zeegras",
-        imageUrl: "https://media.s-bol.com/g5GNvE5mDmJl/550x540.jpg",
-        price: 21,
+        name: "VASAGLE Salontafel",
+        imageUrl: "https://media.s-bol.com/73gj07VNqyZB/550x550.jpg",
+        price: 99.95,
+      },
+      {
+        id: 309,
+        name: "Livin24 Lara Industriële Salontafels",
+        imageUrl: "https://media.s-bol.com/Z4Mw7N6o9JE5/550x550.jpg",
+        price: 189.95,
+      },
+      {
+        id: 310,
+        name: "Livin24 Industriële eetkamerstoel Morris",
+        imageUrl: "https://media.s-bol.com/APw6xB05p7lp/550x550.jpg",
+        price: 59.95,
+      },
+      {
+        id: 311,
+        name: "Design Eetkamerstoel Eiffel Wit",
+        imageUrl: "https://media.s-bol.com/Yvx6PkG02Y7O/550x422.jpg",
+        price: 18.75,
+      },
+      {
+        id: 312,
+        name: "Stoel crazy antraciet",
+        imageUrl: "https://media.s-bol.com/JZ5RmKkY9gp9/550x549.jpg",
+        price: 64,
+      },
+      {
+        id: 313,
+        name: "Urban Living Klassieke vlinderstoel ",
+        imageUrl: "https://media.s-bol.com/Yox0GEr1YOY/550x713.jpg",
+        price: 49.95,
+      },
+      {
+        id: 314,
+        name: "Elektrische sta-op stoel donkergrijs F-201",
+        imageUrl: "https://media.s-bol.com/BLrw35WG8KVY/550x366.jpg",
+        price: 389,
+      },
+      {
+        id: 315,
+        name: "TV Meubel Zwart & Eiken - Scandinavisch Design",
+        imageUrl: "https://media.s-bol.com/Nk9vD4Nqm5Vm/550x412.jpg",
+        price: 139,
+      },
+      {
+        id: 316,
+        name: "TV Meubel Zwevend - Zwart - 140 cm",
+        imageUrl: "https://media.s-bol.com/xkv9Xj0wG7MP/550x385.jpg",
+        price: 179,
+      },
+      {
+        id: 317,
+        name: "AZ-Home - Dressoir Stiv V 120 cm",
+        imageUrl: "https://media.s-bol.com/YW5ERpJ37W2K/550x599.jpg",
+        price: 109.9,
+      },
+      {
+        id: 318,
+        name: "Meubella Dressoir Monaco",
+        imageUrl: "https://media.s-bol.com/37P0xR8KjjM/550x412.jpg",
+        price: 219,
+      },
+      {
+        id: 319,
+        name: "Livin24 Lara Industriële Salontafels",
+        imageUrl: "https://media.s-bol.com/Z4Mw7N6o9JE5/550x550.jpg",
+        price: 189.95,
+      },
+      {
+        id: 320,
+        name: "Lucide LORIN Tafellamp",
+        imageUrl: "https://media.s-bol.com/1qmY2M2p29R/550x823.jpg",
+        price: 22.49,
+      },
+      {
+        id: 321,
+        name: "Himalaya Salt Dreams Zoutlamp ",
+        imageUrl: "https://media.s-bol.com/BBBllPr9VKjY/550x509.jpg",
+        price: 20,
+      },
+      {
+        id: 322,
+        name: "Lucide MESH Hanglamp",
+        imageUrl: "https://media.s-bol.com/31RRq8RQ93Nn/550x785.jpg",
+        price: 31.99,
+      },
+      {
+        id: 323,
+        name: "Grote Handgemaakte Dromen Vanger",
+        imageUrl: "https://media.s-bol.com/BBoZ6MDOzWON/550x550.jpg",
+        price: 8.95,
+      },
+      {
+        id: 324,
+        name: "Set Shaolin monniken horen/zien/zwijgen",
+        imageUrl: "https://media.s-bol.com/O1WMYGXJE7p/550x364.jpg",
+        price: 31.95,
+      },
+      {
+        id: 325,
+        name: "Gadgy Vaaslamp ",
+        imageUrl: "https://media.s-bol.com/36pj63YnA0mQ/550x550.jpg",
+        price: 24.95,
       },
     ],
   },
@@ -838,9 +1274,9 @@ const SHOP_DATA = {
     items: [
       {
         id: 351,
-        name: "Lifetime partytent",
-        imageUrl: "https://media.s-bol.com/6R7G0XykkPNV/550x487.jpg",
-        price: 34.99,
+        name: "Balliu Evapro Strandbed",
+        imageUrl: "https://media.s-bol.com/Vvm83XJ0qyMB/550x366.jpg",
+        price: 189,
       },
       {
         id: 352,
@@ -850,39 +1286,111 @@ const SHOP_DATA = {
       },
       {
         id: 353,
-        name: "Benson hangmat",
-        imageUrl: "https://media.s-bol.com/R6YXNKnoBO2q/550x493.jpg",
-        price: 16,
+        name: "Steigerhouten hoekbank met chaise longue",
+        imageUrl: "https://media.s-bol.com/3BzPMRGBEmM/550x412.jpg",
+        price: 450,
       },
       {
         id: 354,
-        name: "Maxx 2x aluminium tuinstoel",
-        imageUrl: "https://media.s-bol.com/YWNyxoqWXyk2/550x530.jpg",
-        price: 99,
+        name: "Benson hangmat - Blauw/Groen",
+        imageUrl: "https://media.s-bol.com/JVxBL26v7yo/550x550.jpg",
+        price: 17.5,
       },
       {
         id: 355,
-        name: "Hangstoel Sturdy",
-        imageUrl: "https://media.s-bol.com/E9ZJyKJ4Y61m/391x840.jpg",
-        price: 285,
+        name: "Partytent Feesttent Paviljoen",
+        imageUrl: "https://media.s-bol.com/57n7pDKm39LY/550x550.jpg",
+        price: 199,
       },
       {
         id: 356,
-        name: "Loungset Punta Cana",
-        imageUrl: "https://media.s-bol.com/qjOBwky2PvGp/550x550.jpg",
-        price: 379,
+        name: "Washingtonia robusta",
+        imageUrl: "https://media.s-bol.com/qJWJV4xV7M0/550x412.jpg",
+        price: 22.99,
       },
       {
         id: 357,
-        name: "Ligbed met zonneluifel",
-        imageUrl: "https://media.s-bol.com/J6Z6YWz4Kw4J/550x467.jpg",
-        price: 125,
+        name: "Mooie volle olijfboom 170cm hoog",
+        imageUrl: "https://media.s-bol.com/YWXLyYDvZlPn/550x733.jpg",
+        price: 150,
       },
       {
         id: 358,
-        name: "Tuinset compleet Florence",
-        imageUrl: "https://media.s-bol.com/NkkyrV6G63oL/550x372.jpg",
-        price: 139,
+        name: "Bergenia Cordifolia 'Eroica' ",
+        imageUrl: "https://media.s-bol.com/32Zg3BB61xgn/550x550.jpg",
+        price: 11.99,
+      },
+      {
+        id: 359,
+        name: "Tuinbeeld met hoorn",
+        imageUrl: "https://media.s-bol.com/gBoB5Pv6ZPl/550x663.jpg",
+        price: 27.95,
+      },
+      {
+        id: 360,
+        name: "Tuindoek - 95x130 cm",
+        imageUrl: "https://media.s-bol.com/gLwzZR55Mkr3/550x752.jpg",
+        price: 59.9,
+      },
+      {
+        id: 361,
+        name: "Tuinbeeld -Jongen met bloembak",
+        imageUrl: "https://media.s-bol.com/N9Jg1jyY6xOL/550x732.jpg",
+        price: 42.95,
+      },
+      {
+        id: 362,
+        name: "Boeddha in lotushouding",
+        imageUrl: "https://media.s-bol.com/qY47nXx2kvjk/550x825.jpg",
+        price: 49.95,
+      },
+      {
+        id: 363,
+        name: "3-delige Solar LED Tuinverlichting Set",
+        imageUrl: "https://media.s-bol.com/Mwm1BNmg5nwQ/550x550.jpg",
+        price: 19.95,
+      },
+      {
+        id: 364,
+        name: "Gadgy Oosterse Lantaarn",
+        imageUrl: "https://media.s-bol.com/mZQAzzwY73wA/550x550.jpg",
+        price: 34.95,
+      },
+      {
+        id: 365,
+        name: "VONROC broespistool & spuitstuk set",
+        imageUrl: "https://media.s-bol.com/q7z5k3g6o873/550x400.jpg",
+        price: 12.95,
+      },
+      {
+        id: 366,
+        name: "Powerplus POWEG63703 - Grasmaaier",
+        imageUrl: "https://media.s-bol.com/32Z4PX9JgjgO/550x364.jpg",
+        price: 51.42,
+      },
+      {
+        id: 367,
+        name: "GARDENA Sileno City 250 robotmaaier",
+        imageUrl: "https://media.s-bol.com/BKMAZVM06KY/550x366.jpg",
+        price: 689,
+      },
+      {
+        id: 368,
+        name: "GARDENA Classic snoeischaar",
+        imageUrl: "https://media.s-bol.com/VOpmWoXgp4lO/550x366.jpg",
+        price: 16.99,
+      },
+      {
+        id: 369,
+        name: "VONROC Accu Heggenschaar ",
+        imageUrl: "https://media.s-bol.com/xvOvvx8mkG5l/550x334.jpg",
+        price: 39.95,
+      },
+      {
+        id: 370,
+        name: "VONROC 3-in-1 bladblazer",
+        imageUrl: "https://media.s-bol.com/BrL4q2ng7wjx/550x368.jpg",
+        price: 38.95,
       },
     ],
   },

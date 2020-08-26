@@ -6,7 +6,7 @@ import "./collection-item.styles.scss";
 
 const CollectionItem = ({ item, addItem }) => {
   const { name, price, imageUrl } = item;
-  const prijs = new Intl.NumberFormat("de-DE", {
+  const prijs = new Intl.NumberFormat("nl-NL", {
     style: "currency",
     currency: "EUR",
   }).format(price);
@@ -20,7 +20,7 @@ const CollectionItem = ({ item, addItem }) => {
       />
       <div className="collection-footer">
         <span className="name">{name}</span>
-        <span className="price">€{prijs}</span>
+        <span className="price">{prijs}</span>
       </div>
       <CustomButton inverted onClick={() => addItem(item)}>
         In Winkelwagen

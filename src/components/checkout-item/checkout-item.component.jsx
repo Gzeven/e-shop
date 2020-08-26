@@ -6,12 +6,11 @@ import {
   removeItem,
 } from "../../redux/cart/cart.actions";
 import "./checkout-item.styles.scss";
-import { addItemToCart } from "../../redux/cart/cart.utils";
 
 const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => {
   const { name, imageUrl, price, quantity } = cartItem;
   const total = quantity * price;
-  const totaleprijs = new Intl.NumberFormat("de-DE", {
+  const totaleprijs = new Intl.NumberFormat("nl-NL", {
     style: "currency",
     currency: "EUR",
   }).format(total);
@@ -30,7 +29,7 @@ const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => {
           &#10095;
         </div>
       </span>
-      <span className="price">€ {totaleprijs}</span>
+      <span className="price">{totaleprijs}</span>
       <div className="remove-button" onClick={() => clearItem(cartItem)}>
         &#10005;
       </div>
